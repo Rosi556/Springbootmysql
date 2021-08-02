@@ -31,5 +31,11 @@ public class Venda implements Serializable {
     @OneToMany
     private List<Produto> produtos;
 
+    public Long getId() {
+        return id;
+    }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
 }

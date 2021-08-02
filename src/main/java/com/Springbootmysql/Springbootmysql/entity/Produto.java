@@ -29,4 +29,11 @@ public class Produto implements Serializable {
     @Column(name = "valor")
     private BigDecimal valor;
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 }
